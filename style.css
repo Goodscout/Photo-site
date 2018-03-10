@@ -285,6 +285,7 @@ span {
 			
 }
 
+
 /*Podstrona indywidualne*/
 
   /* Zdjęcia w galerii indywidualne*/
@@ -380,6 +381,15 @@ span {
 		background-position: center;
 	}
 }
+@media only screen and (min-width:300px) {
+	[class*="gallery-pages"]{
+		min-height: 270px;
+		width: 100%;
+		background-size: cover;
+		background-position: center;
+	}
+}
+
 
 /* sekcja KONTAKT*/
 
